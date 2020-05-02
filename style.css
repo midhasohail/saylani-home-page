@@ -1,0 +1,253 @@
+body {
+    background-color: #F7F8FA;
+}
+
+.header1 {
+    height: 50px;
+    background-color: #316DC3;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.h1_img {
+    position: relative;
+    top: 5px;
+    left: 50px;
+}
+
+.para {
+    margin-top: 10px;
+    color: white;
+}
+
+.one {
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 10px;
+    color: grey;
+}
+
+
+/* .......................................................................... */
+
+.header2 {
+    background-color: #F7F8FA;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.h2_img {
+    position: relative;
+    top: 10px;
+    left: 70px;
+}
+
+.but2 {
+    background-color: #316DC3;
+    color: white;
+    border-radius: 18px;
+    font-size: 13px;
+    padding: 8px 16px;
+    margin: 10px 5px;
+    border: none;
+}
+
+.but22 {
+    background-color: #F7F8FA;
+    color: black;
+    border: none;
+    border-radius: 18px;
+    font-size: 13px;
+    padding: 8px 16px;
+    margin: 8px 5px;
+}
+
+.but22:hover {
+    background-color: #316DC3;
+    color: white;
+}
+
+.btn {
+    background-color: #F7F8FA;
+    color: black;
+    border: none !important;
+    border-radius: 18px !important;
+    padding: 8px 16px;
+    margin: 8px 5px;
+}
+
+.btn:hover {
+    background-color: #316DC3;
+    color: white !important;
+}
+
+.allbuts {
+    display: flex;
+    position: absolute;
+    right: 100px;
+}
+
+.dropdown-item {
+    background-color: white;
+    color: grey !important;
+    font-size: 12px !important;
+}
+
+.dropdown-item:hover {
+    background-color: #316DC3 !important;
+    color: white !important;
+}
+
+
+/* .............................................................................................................. */
+
+marquee {
+    height: 30px;
+    width: 70%;
+    background-color: #316DC3;
+    color: white;
+    position: relative;
+    left: 180px;
+    top: 5px;
+}
+
+
+/* ................................................................................ */
+
+.intropara {
+    text-align: justify;
+    position: relative;
+    left: 280px;
+    width: 60%;
+    padding: 5px 5px;
+    color: #666666;
+    font-size: 14px;
+}
+
+.header3 {
+    text-align: center;
+    background-color: #F7F8FA;
+}
+
+
+/* ........................................................... */
+
+
+/* .header4{
+    background-color:#2755E9 ;
+    height: 300px;
+} */
+
+
+/* ........................................................................ */
+
+.header5 {
+    background-color: #F7F8FA;
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 100%;
+}
+
+.h5box {
+    /* border: 2px solid blue; */
+    max-width: 80%;
+    margin: 0px auto;
+}
+
+.sub-div-5 {
+    /* background-color: hotpink; */
+    min-width: 28%;
+    max-width: 28%;
+    /* border: 2px solid blue; */
+    display: inline-block;
+    margin: 15px 10px;
+    box-shadow: 5px 5px 5px darkgrey;
+}
+
+.sub-div-5-img {
+    width: 100%;
+}
+
+
+/* ........................................................... */
+
+.header6 {
+    max-width: 80%;
+    margin: 100px auto 0px auto;
+    /* padding-bottom: 25px; */
+    display: flex;
+    flex-direction: row;
+}
+
+.header-six {
+    max-width: 70%;
+    /* margin-left: 100px; */
+    margin-right: 10px;
+}
+
+.h6marquee {
+    max-width: 30%;
+    /* display: inline-block; */
+    /* margin-left: 30px; */
+}
+
+.up-com-marquee {
+    position: relative;
+    left: 5px;
+    top: 5px;
+    font-size: 14px;
+    color: #666666;
+    background-color: white;
+    width: 60%;
+    height: 250px;
+    text-align: justify;
+}
+
+
+/* ........................................................... */
+
+.header7 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.h7-imgs {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* ........................................................... */
+
+.header8 {
+    height: 450px;
+    background-color: #25272E;
+    margin-top: 180px;
+    padding-top: 20px;
+    /* padding-left: 80px; */
+}
+
+
+/* ........................................................... */
+
+.header9 {
+    height: 60px;
+    background-color: #2755E9;
+    color: white;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-left: 150px;
+}
+
+.go-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    border: none;
+}
